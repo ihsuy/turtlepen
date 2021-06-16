@@ -1,7 +1,7 @@
 # turtlepen
 A simple pattern drawing library inspired by [Turtle](https://turtleacademy.com/) and [Waterbear](http://waterbearlang.com). 
 
-This library is explicited kept concise for understandability and easy modification. 
+This library is explicitly kept concise for easy understanding and modification. 
 
 --- 
 
