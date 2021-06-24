@@ -10,6 +10,8 @@ The source code is explicitly kept concise for easy understanding and modificati
 
 ### Example 1
 ```python
+from turtlepen import blocks, tools, turtle
+
 # create a turtle
 turtle = Turtle()
 
@@ -37,6 +39,8 @@ visualize_trace(turtle)
 
 ### Example 2
 ```python
+from turtlepen import blocks, tools, turtle
+
 # create a turtle
 turtle = Turtle()
 
@@ -78,3 +82,41 @@ visualize_trace(turtle)
 <img src="./examples/exp2.png"
      alt="example 2"
      width="500" />
+
+---
+
+### Experimental
+
+A mini-language parser with the following single-letter commands:
+
+
+    P -> Repeat
+    R -> Rotate
+    F -> Forward
+    U -> PenUp
+    D -> PenDown
+    B -> BackToCenter
+
+    where indented lines following `P` are repeated by `P`.
+
+For instance, the script below is equivalent to Example 2 above:
+```
+P 10
+    R -5
+    P 10
+        F 10
+        R -14
+    R 10
+        R 5
+        P 17
+            F 13
+            R -3
+        B
+        R 3
+        P 11
+            U
+            F 29
+            D
+            R 4
+            F -24
+```
