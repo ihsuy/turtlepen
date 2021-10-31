@@ -1,7 +1,6 @@
 # turtlepen
 A simple pattern drawing toy inspired by [Turtle](https://turtleacademy.com/) and [Waterbear](http://waterbearlang.com). 
 
-The source code is explicitly kept concise for easy understanding and modification.
 --- 
 
 
